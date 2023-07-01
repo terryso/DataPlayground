@@ -2,6 +2,9 @@ import json
 import streamlit as st
 import pandas as pd
 
+# 禁用使用统计信息收集
+st.set_option('browser.gatherUsageStats', False)
+
 # 读取recipes.json文件
 with open('recipes.json', 'r') as f:
     recipes = json.load(f)
