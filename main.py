@@ -49,4 +49,4 @@ for level in recipes:
 
 # 在网站上展示DataFrame
 st.write('Result:')
-st.write(data, height=800)
+st.write(data)
