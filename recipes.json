@@ -47,5 +47,516 @@
             "rarity": "COMMON",
             "amount": 120
         }
+    ],
+    "lv3": [
+        {
+            "name": "Topaz",
+            "rarity": "RARE",
+            "amount": 300
+        },
+        {
+            "name": "Sapphire",
+            "rarity": "COMMON",
+            "amount": 760
+        },
+        {
+            "name": "Onyx",
+            "rarity": "RARE",
+            "amount": 100
+        },
+        {
+            "name": "Diamond",
+            "rarity": "COMMON",
+            "amount": 300
+        },
+        {
+            "name": "Sulfur",
+            "rarity": "COMMON",
+            "amount": 200
+        }
+    ],
+    "lv4":[
+        {
+            "name": "Topaz",
+            "rarity": "COMMON",
+            "amount": 200
+        },
+        {
+            "name": "Sapphire",
+            "rarity": "RARE",
+            "amount": 200
+        },
+        {
+            "name": "Ruby",
+            "rarity": "COMMON",
+            "amount": 900
+        },
+        {
+            "name": "Ruby",
+            "rarity": "RARE",
+            "amount": 300
+        },
+        {
+            "name": "Onyx",
+            "rarity": "COMMON",
+            "amount": 800
+        },
+        {
+            "name": "Emerald",
+            "rarity": "RARE",
+            "amount": 210
+        }
+    ],
+    "lv5":[
+        {
+            "name": "Topaz",
+            "rarity": "RARE",
+            "amount": 200
+        },
+        {
+            "name": "Sapphire",
+            "rarity": "COMMON",
+            "amount": 200
+        },
+        {
+            "name": "Onyx",
+            "rarity": "COMMON",
+            "amount": 300
+        },
+        {
+            "name": "Onyx",
+            "rarity": "RARE",
+            "amount": 180
+        },
+        {
+            "name": "Emerald",
+            "rarity": "COMMON",
+            "amount": 1000
+        },
+        {
+            "name": "Diamond",
+            "rarity": "RARE",
+            "amount": 160
+        }
+    ],
+    "lv6": [
+        {
+            "name": "Sapphire",
+            "rarity": "COMMON",
+            "amount": 600
+        },
+        {
+            "name": "Ruby",
+            "rarity": "COMMON",
+            "amount": 200
+        },
+        {
+            "name": "Ruby",
+            "rarity": "RARE",
+            "amount": 320
+        },
+        {
+            "name": "Onyx",
+            "rarity": "RARE",
+            "amount": 220
+        },
+        {
+            "name": "Emerald",
+            "rarity": "RARE",
+            "amount": 230
+        },
+        {
+            "name": "Cobalt",
+            "rarity": "COMMON",
+            "amount": 320
+        }
+    ],
+    "lv7": [
+        {
+            "name": "Topaz",
+            "rarity": "RARE",
+            "amount": 100
+        },
+        {
+            "name": "Topaz",
+            "rarity": "EPIC",
+            "amount": 400
+        },
+        {
+            "name": "Sapphire",
+            "rarity": "RARE",
+            "amount": 300
+        },
+        {
+            "name": "Ruby",
+            "rarity": "EPIC",
+            "amount": 250
+        },
+        {
+            "name": "Diamond",
+            "rarity": "COMMON",
+            "amount": 50
+        },
+        {
+            "name": "Sulfur",
+            "rarity": "RARE",
+            "amount": 180
+        },
+        {
+            "name": "Cobalt",
+            "rarity": "COMMON",
+            "amount": 800
+        }
+    ],
+    "lv8":[
+        {
+            "name": "Topaz",
+            "rarity": "RARE",
+            "amount": 550
+        },
+        {
+            "name": "Sapphire",
+            "rarity": "EPIC",
+            "amount": 420
+        },
+        {
+            "name": "Ruby",
+            "rarity": "RARE",
+            "amount": 250
+        },
+        {
+            "name": "Onyx",
+            "rarity": "COMMON",
+            "amount": 300
+        },
+        {
+            "name": "Emerald",
+            "rarity": "COMMON",
+            "amount": 400
+        },
+        {
+            "name": "Emerald",
+            "rarity": "EPIC",
+            "amount": 150
+        },
+        {
+            "name": "Xenogoo",
+            "rarity": "RARE",
+            "amount": 350
+        }
+    ],
+    "lv9":[
+        {
+            "name": "Topaz",
+            "rarity": "COMMON",
+            "amount": 1800
+        },
+        {
+            "name": "Topaz",
+            "rarity": "EPIC",
+            "amount": 200
+        },
+        {
+            "name": "Sapphire",
+            "rarity": "RARE",
+            "amount": 100
+        },
+        {
+            "name": "Onyx",
+            "rarity": "RARE",
+            "amount": 100
+        },
+        {
+            "name": "Onyx",
+            "rarity": "EPIC",
+            "amount": 320
+        },
+        {
+            "name": "Diamond",
+            "rarity": "RARE",
+            "amount": 280
+        },
+        {
+            "name": "Sulfur",
+            "rarity": "COMMON",
+            "amount": 390
+        }
+    ],
+    "lv10":[
+        {
+            "name": "Sapphire",
+            "rarity": "EPIC",
+            "amount": 300
+        },
+        {
+            "name": "Emerald",
+            "rarity": "COMMON",
+            "amount": 400
+        },
+        {
+            "name": "Emerald",
+            "rarity": "RARE",
+            "amount": 100
+        },
+        {
+            "name": "Diamond",
+            "rarity": "EPIC",
+            "amount": 260
+        },
+        {
+            "name": "Sulfur",
+            "rarity": "RARE",
+            "amount": 180
+        },
+        {
+            "name": "Xenogoo",
+            "rarity": "COMMON",
+            "amount": 800
+        },
+        {
+            "name": "Xenogoo",
+            "rarity": "EPIC",
+            "amount": 100
+        },
+        {
+            "name": "Etheresin",
+            "rarity": "RARE",
+            "amount": 200
+        }
+    ],
+    "lv11":[
+        {
+            "name": "Ruby",
+            "rarity": "COMMON",
+            "amount": 600
+        },
+        {
+            "name": "Ruby",
+            "rarity": "EPIC",
+            "amount": 350
+        },
+        {
+            "name": "Sulfur",
+            "rarity": "EPIC",
+            "amount": 50
+        },
+        {
+            "name": "Cobalt",
+            "rarity": "COMMON",
+            "amount": 100
+        },
+        {
+            "name": "Cobalt",
+            "rarity": "RARE",
+            "amount": 300
+        },
+        {
+            "name": "Mithril",
+            "rarity": "EPIC",
+            "amount": 30
+        },
+        {
+            "name": "Dilithium",
+            "rarity": "COMMON",
+            "amount": 400
+        },
+        {
+            "name": "Nebulium",
+            "rarity": "RARE",
+            "amount": 120
+        }
+    ],
+    "lv12": [
+        {
+            "name": "Onyx",
+            "rarity": "EPIC",
+            "amount": 60
+        },
+        {
+            "name": "Emerald",
+            "rarity": "EPIC",
+            "amount": 200
+        },
+        {
+            "name": "Diamond",
+            "rarity": "RARE",
+            "amount": 200
+        },
+        {
+            "name": "Diamond",
+            "rarity": "EPIC",
+            "amount": 160
+        },
+        {
+            "name": "Sulfur",
+            "rarity": "RARE",
+            "amount": 100
+        },
+        {
+            "name": "Xenogoo",
+            "rarity": "RARE",
+            "amount": 300
+        },
+        {
+            "name": "Etheresin",
+            "rarity": "COMMON",
+            "amount": 880
+        },
+        {
+            "name": "Aether",
+            "rarity": "COMMON",
+            "amount": 1200
+        }
+    ],
+    "lv13":[
+        {
+            "name": "Sulfur",
+            "rarity": "EPIC",
+            "amount": 180
+        },
+        {
+            "name": "Cobalt",
+            "rarity": "EPIC",
+            "amount": 20
+        },
+        {
+            "name": "Xenogoo",
+            "rarity": "RARE",
+            "amount": 220
+        },
+        {
+            "name": "Etheresin",
+            "rarity": "RARE",
+            "amount": 160
+        },
+        {
+            "name": "Mithril",
+            "rarity": "COMMON",
+            "amount": 550
+        },
+        {
+            "name": "Aether",
+            "rarity": "RARE",
+            "amount": 400
+        },
+        {
+            "name": "Energiadyn",
+            "rarity": "EPIC",
+            "amount": 15
+        },
+        {
+            "name": "Helium-3",
+            "rarity": "COMMON",
+            "amount": 400
+        },
+        {
+            "name": "Helium-3",
+            "rarity": "EPIC",
+            "amount": 15
+        }
+    ],
+    "lv14":[
+        {
+            "name": "Cobalt",
+            "rarity": "RARE",
+            "amount": 400
+        },
+        {
+            "name": "Etheresin",
+            "rarity": "COMMON",
+            "amount": 500
+        },
+        {
+            "name": "Etheresin",
+            "rarity": "EPIC",
+            "amount": 30
+        },
+        {
+            "name": "Mithril",
+            "rarity": "RARE",
+            "amount": 250
+        },
+        {
+            "name": "Mithril",
+            "rarity": "EPIC",
+            "amount": 40
+        },
+        {
+            "name": "Dilithium",
+            "rarity": "RARE",
+            "amount": 220
+        },
+        {
+            "name": "Dilithium",
+            "rarity": "EPIC",
+            "amount": 30
+        },
+        {
+            "name": "Nebulium",
+            "rarity": "EPIC",
+            "amount": 30
+        },
+        {
+            "name": "Energiadyn",
+            "rarity": "COMMON",
+            "amount": 600
+        }
+    ],
+    "lv15": [
+        {
+            "name": "Cobalt",
+            "rarity": "EPIC",
+            "amount": 50
+        },
+        {
+            "name": "Xenogoo",
+            "rarity": "EPIC",
+            "amount": 60
+        },
+        {
+            "name": "Etheresin",
+            "rarity": "EPIC",
+            "amount": 90
+        },
+        {
+            "name": "Mithril",
+            "rarity": "COMMON",
+            "amount": 1200
+        },
+        {
+            "name": "Mithril",
+            "rarity": "RARE",
+            "amount": 260
+        },
+        {
+            "name": "Aether",
+            "rarity": "EPIC",
+            "amount": 120
+        },
+        {
+            "name": "Nebulium",
+            "rarity": "COMMON",
+            "amount": 1000
+        },
+        {
+            "name": "Energiadyn",
+            "rarity": "RARE",
+            "amount": 180
+        },
+        {
+            "name": "Helium-3",
+            "rarity": "RARE",
+            "amount": 180
+        }
     ]
 }
+
+
+
+
+
+
+
+
+
+

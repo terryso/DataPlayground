@@ -2,19 +2,16 @@ import json
 import streamlit as st
 import pandas as pd
 
-# 禁用使用统计信息收集
-# st.set_option('browser.gatherUsageStats', False)
-
 # 读取recipes.json文件
 with open('recipes.json', 'r') as f:
     recipes = json.load(f)
 
 # 创建一个空的DataFrame
-data = pd.DataFrame(columns=['Level', 'Item Name', 'Rarity', 'Amount Needed', 'Amount Owned'])
+data = pd.DataFrame(columns=['Level', 'Essence', 'Rarity', 'Amount Needed', 'Amount Owned', 'Remaining Amount'])
 
 # 让用户录入inventories的数据
 st.write('Please enter your inventories data:')
-inventories = st.text_area('Inventories Data', value='{"items":[], "essences": []}', height=300)
+inventories = st.text_area('Inventories Data', value='{"items":[], "essences": []}', height=200)
 inventories_dict = json.loads(inventories)
 essences = inventories_dict["essences"]
 
@@ -33,23 +30,23 @@ for level in recipes:
             if not level_shown:
                 data = data.append({
                     'Level': level,
-                    'Item Name': item_name,
+                    'Essence': item_name,
                     'Rarity': item_rarity,
                     'Amount Needed': item_amount,
                     'Amount Owned': owned_amount,
-                    'Remaining Amount': int(item_amount - owned_amount)
+                    'Remaining Amount': int(item_amount - owned_amount) if (item_amount - owned_amount) > 0 else 0
                 }, ignore_index=True)
                 level_shown = True
             else:
                 data = data.append({
                     'Level': '',
-                    'Item Name': item_name,
+                    'Essence': item_name,
                     'Rarity': item_rarity,
                     'Amount Needed': item_amount,
                     'Amount Owned': owned_amount,
-                    'Remaining Amount': int(item_amount - owned_amount)
+                    'Remaining Amount': int(item_amount - owned_amount) if (item_amount - owned_amount) > 0 else 0
                 }, ignore_index=True)
 
 # 在网站上展示DataFrame
 st.write('Result:')
-st.write(data)
+st.write(data, height=800)
