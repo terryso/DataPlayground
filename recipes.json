@@ -1,0 +1,51 @@
+{
+    "lv1": [
+        {
+            "name": "Sapphire",
+            "rarity": "COMMON",
+            "amount": 600
+        },
+        {
+            "name": "Topaz",
+            "rarity": "COMMON",
+            "amount": 600
+        },
+        {
+            "name": "Ruby",
+            "rarity": "COMMON",
+            "amount": 600
+        },
+        {
+            "name": "Onyx",
+            "rarity": "COMMON",
+            "amount": 600
+        }
+    ],
+    "lv2": [
+        {
+            "name": "Topaz",
+            "rarity": "COMMON",
+            "amount": 600
+        },
+        {
+            "name": "Sapphire",
+            "rarity": "RARE",
+            "amount": 390
+        },
+        {
+            "name": "Ruby",
+            "rarity": "RARE",
+            "amount": 100
+        },
+        {
+            "name": "Diamond",
+            "rarity": "COMMON",
+            "amount": 420
+        },
+        {
+            "name": "Sulfur",
+            "rarity": "COMMON",
+            "amount": 120
+        }
+    ]
+}

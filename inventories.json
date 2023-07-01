@@ -1,0 +1,21 @@
+{
+    "items": [],
+    "essences": [
+        {
+            "userItemId": "649dd54bd2804f28afad4d1d",
+            "id": "6489a0ed7d9d6347da20ef74",
+            "name": "Sapphire",
+            "image": "https://creepz-public.nyc3.cdn.digitaloceanspaces.com/A_Galactic_Adventure/esseces/ESSENCE_SAPPHIRE_COMMON_RAW.jpg",
+            "amount": 59,
+            "rarity": "COMMON"
+        },
+        {
+            "userItemId": "649dd54bd2804f28afad4d23",
+            "id": "6489a0ed7d9d6347da20ef74",
+            "name": "Sapphire",
+            "image": "https://creepz-public.nyc3.cdn.digitaloceanspaces.com/A_Galactic_Adventure/esseces/ESSENCE_SAPPHIRE_RARE_RAW.jpg",
+            "amount": 5,
+            "rarity": "RARE"
+        }
+    ]
+}
