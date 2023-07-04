@@ -1,6 +1,7 @@
 import json
 import streamlit as st
 import pandas as pd
+from io import BytesIO
 
 # 读取recipes.json文件
 with open('recipes.json', 'r') as f:
@@ -50,3 +51,19 @@ for level in recipes:
 # 在网站上展示DataFrame
 st.write('Result:')
 st.dataframe(data, height=500)
+
+# 创建一个下载按钮，将DataFrame导出为Excel文件
+def download_excel():
+    output = BytesIO()
+    writer = pd.ExcelWriter(output, engine='xlsxwriter')
+    data.to_excel(writer, sheet_name='Result', index=False)
+    writer.save()
+    processed_data = output.getvalue()
+    return processed_data
+
+button = st.download_button(
+    label='Download Excel',
+    data=download_excel(),
+    file_name='result.xlsx',
+    mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+)
