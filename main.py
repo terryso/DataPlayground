@@ -27,26 +27,27 @@ for level in recipes:
         for essence in essences:
             if essence['name'] == item_name and essence['rarity'] == item_rarity:
                 owned_amount += essence['amount']
-        if owned_amount < item_amount:
-            if not level_shown:
-                data = data.append({
-                    'Level': level,
-                    'Essence': item_name,
-                    'Rarity': item_rarity,
-                    'Amount Needed': item_amount,
-                    'Amount Owned': owned_amount,
-                    'Remaining Amount': int(item_amount - owned_amount) if (item_amount - owned_amount) > 0 else 0
-                }, ignore_index=True)
-                level_shown = True
-            else:
-                data = data.append({
-                    'Level': '',
-                    'Essence': item_name,
-                    'Rarity': item_rarity,
-                    'Amount Needed': item_amount,
-                    'Amount Owned': owned_amount,
-                    'Remaining Amount': int(item_amount - owned_amount) if (item_amount - owned_amount) > 0 else 0
-                }, ignore_index=True)
+        
+        if not level_shown:
+            data = data.append({
+                'Level': level,
+                'Essence': item_name,
+                'Rarity': item_rarity,
+                'Amount Needed': item_amount,
+                'Amount Owned': owned_amount,
+                'Remaining Amount': int(item_amount - owned_amount) if (item_amount - owned_amount) > 0 else 0
+            }, ignore_index=True)
+            level_shown = True
+        else:
+            data = data.append({
+                'Level': '',
+                'Essence': item_name,
+                'Rarity': item_rarity,
+                'Amount Needed': item_amount,
+                'Amount Owned': owned_amount,
+                'Remaining Amount': int(item_amount - owned_amount) if (item_amount - owned_amount) > 0 else 0
+            }, ignore_index=True)
+            
 
 # 在网站上展示DataFrame
 st.write('Result:')
