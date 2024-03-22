@@ -9,4 +9,4 @@ numpy==1.21.2
 # python-weixin
 # pymongo
 xlsxwriter
-wechat=0.4.16
+wechat==0.4.16
